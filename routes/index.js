@@ -4,7 +4,7 @@ const router = express.Router();
 router.blogPath = __dirname + "/../content/articles/";
 const Project = require("../scripts/app.functions");
 const project = new Project(router.blogPath, {
-  podcastFeedXml: __dirname + "/../public/podcast-feed.xml",
+  podcastFeedXml: __dirname + "/../public/ejp-podcast-feed.xml",
 });
 const { parse } = require("node-html-parser");
 

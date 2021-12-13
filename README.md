@@ -1,8 +1,13 @@
-# Techlife Podcast Site
-## Технологии и жизнь
+# Everyday Journey Podcast
 
-Подкаст о современной жизни, философии, и путешествиях с технологической, космополитической, и контркультурной точки зрения.
+## Website based on [Tapirio](https://dev.tapirio.com)
 
-![artwork](https://www.techlifepodcast.com/images/og-techlife-artwork-1200.jpg)
+Interviews with outstanding people about their upbringing, professions, hobbies, cultural traits, and life observations in an informal manner to inspire listeners to overcome obstacles and become freer and happier.
 
-Proceed to [http://localhost:3501](http://localhost:3501)
+Hosted by Vasily Myazin.
+
+## Installation
+
+`yarn`
+
+`yarn start`
