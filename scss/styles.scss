@@ -10,9 +10,9 @@ body {
   background-position: center top;
   background-size: 100%;
   background-repeat: no-repeat;
-  font-family: "Fira Sans", "Helvetica Nueu", Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Nueu", Arial, sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: $dark-grey;
 
   // &[class*="resources"] {
   // }
@@ -68,7 +68,7 @@ a,
 
   &:hover {
     cursor: pointer;
-    color: #fff;
+    color: $dark-grey;
     text-decoration: none;
     border-bottom-color: darken($light-grey, 50%);
   }
@@ -76,7 +76,7 @@ a,
 
 a.link-ext {
   color: $black;
-  background: #fff;
+  background: white;
   border: none;
 }
 
@@ -90,7 +90,10 @@ a.link-ext {
 
 h1 {
   text-align: center;
-  margin: 0 0 1% 0;
+
+  img {
+    width: 240px;
+  }
 }
 
 h2 {
@@ -98,7 +101,6 @@ h2 {
   line-height: 1;
   font-size: $font-s1;
   color: $accent;
-  text-shadow: #000000ee 1px 1px 0;
   margin-top: 2vw;
 }
 
@@ -125,7 +127,7 @@ h4 {
 h3,
 h4,
 h5 {
-  color: #aaa;
+  color: $dark-grey;
 }
 
 h3 + h2 {
@@ -208,7 +210,7 @@ pre {
   &:hover:not(.active) {
     svg {
       path {
-        fill: #fff;
+        fill: $dark-grey;
       }
     }
   }
@@ -282,7 +284,7 @@ pre {
 .dark-box,
 .episode-list li.selected {
   border: 2px solid $mid-grey;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .date {
@@ -347,7 +349,7 @@ pre {
 
   p {
     line-height: 1.35;
-    color: $light-grey;
+    color: $dark-grey;
 
     &:last-of-type {
       margin-bottom: 0;
@@ -368,7 +370,7 @@ pre {
 
       a {
         b {
-          color: white;
+          color: $dark-grey;
         }
       }
     }
@@ -519,12 +521,11 @@ pre {
 
 .textual {
   h3 {
-    color: #f2f2f2;
+    color: $dark-grey;
   }
 
   p {
     color: #ffffffcc;
-    text-shadow: #000000ee 1px 1px 0;
   }
 }
 
@@ -670,7 +671,7 @@ pre {
   cursor: pointer;
 
   &:hover {
-    background-color: #fff;
+    background-color: $dark-grey;
   }
 
   .so-far {
@@ -730,7 +731,7 @@ blockquote {
   border: 1px solid $light-grey;
 
   p {
-    color: white;
+    color: $dark-grey;
 
     &:last-child {
       margin-bottom: 0;

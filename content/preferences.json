@@ -3,7 +3,8 @@
     "title": "Everyday Journey Podcast",
     "author": "Vasily Myazin",
     "description": "Informal interviews with outstanding people",
-    "URL": "https://www.everydayjourneypodcast.com"
+    "URL": "https://www.everydayjourneypodcast.com",
+    "email": "contact@vasilym.com"
   },
   "feedUrl": "//www.techlifepodcast.com/podcast-feed.xml",
   "appIds": {

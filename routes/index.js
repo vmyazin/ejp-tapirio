@@ -68,7 +68,7 @@ router.get("/home-2021", (req, res) => {
     path: req.path,
     pageTitle: "О нас",
     isHeroParallax: true,
-    heroImg: "/images/bg-techlife-kamas.jpg",
+    // heroImg: "/images/bg-techlife-kamas.jpg",
   });
 });
 
@@ -78,7 +78,7 @@ router.get("/about", (req, res) => {
     path: req.path,
     pageTitle: "О нас",
     isHeroParallax: true,
-    heroImg: "/images/bg-techlife-kamas.jpg",
+    // heroImg: "/images/bg-techlife-kamas.jpg",
     pageDescription:
       "Авторы Дмитрий Здоров и Василий Мязин давние друзья и записывают подкаст о технологиях часто находясь в разных странах",
   });
