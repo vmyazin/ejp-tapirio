@@ -1,15 +1,16 @@
 {
   "project": {
-    "title": "Технологии и жизнь: подкаст",
+    "title": "Everyday Journey Podcast",
     "author": "Vasily Myazin",
-    "description": "Подкаст о современной жизни, философии, и путешествиях с технологической, космополитической, и контркультурной точки зрения.",
-    "URL": "https://www.techlifepodcast.com"
+    "description": "Informal interviews with outstanding people",
+    "URL": "https://www.everydayjourneypodcast.com"
   },
+  "feedUrl": "//www.techlifepodcast.com/podcast-feed.xml",
   "appIds": {
-    "googleAnalytics": "UA-2420101-40",
-    "facebookApp": "BBCCDD"
+    "googleAnalytics": "UA-2420101-37",
+    "yandexMetrika": "47699239"
   },
   "social": {
-    "telegram": "https://t.me/techlifepodcast"
+    "telegram": ""
   }
 }

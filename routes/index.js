@@ -56,8 +56,7 @@ router.get("/", (req, res) => {
     podcast,
     articles,
     projectInfo,
-    isHeroParallax: true,
-    heroImg: defaultImage,
+    isHeroParallax: false,
     path: "home",
   });
 });

@@ -6,7 +6,7 @@
 @import "_mixins.scss";
 
 body {
-  background-color: $black;
+  background-color: $bg-color;
   background-position: center top;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
 p,
 li {
   font-size: $font-s3;
-  color: #f2f2f2;
+  color: $dark-grey;
   line-height: 1.6;
 }
 
@@ -63,7 +63,7 @@ b {
 
 a,
 .pseudo-link {
-  color: #fff;
+  color: $grey-45;
   border-bottom: 1px solid $light-grey;
 
   &:hover {
