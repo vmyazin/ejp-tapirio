@@ -38,6 +38,10 @@ project.init().then(() => {
       .locale("en")
       .format("LL");
 
+    if (projectInfo.podcast.useContentEncoded) {
+      episode.description = episode['content:encoded'];
+    }
+
     // get first available image for sharing
     const root = parse(episode.description);
     img = root.querySelector("img");
