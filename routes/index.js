@@ -35,7 +35,7 @@ project.init().then(() => {
     episode.title = episode.title.replace(episodeNumber + ": ", "");
     // add neat episode date in Russian
     episode.pubDateConverted = moment(episode.pubDate)
-      .locale("ru")
+      .locale("en")
       .format("LL");
 
     // get first available image for sharing
