@@ -1,10 +1,9 @@
 if path
-  .d-flex.flex-column.align-items-end.top-nav
+  .d-flex.flex-column.align-items-center.align-items-lg-end.top-nav
     nav.mt-3
       ul.list-inline
         li.list-inline-item
           a.nav-pill(href="/" class=(path.includes('home') ? 'active' : ''))
-            //- img(src="/images/icon-home.svg", alt="Домашняя")
             include ../../public/images/icon-home.svg
         li.list-inline-item
           a.nav-pill(href="/about" class=(path.includes('about') ? 'active' : '')) About

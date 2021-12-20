@@ -72,15 +72,17 @@ html
       img.hero-image(src=heroImg id="hero-image")
     .master-container
       .container-fluid
-        include partials/_top-nav
-      .container-fluid
-        h1.px-lg-4.px-0
-          if path.includes('home')
-            span
-              img(src='/images/EJP-logo-c.svg' alt='Технологии и жизнь')
-          else
-            a.reset-link-style(href="/")
-              img(src='/images/EJP-logo-c.svg' alt='Технологии и жизнь')
+        .row
+          .col
+            h1.px-lg-4.px-0
+              if path.includes('home')
+                span
+                  img(src='/images/EJP-logo-c.svg' alt=projectInfo.project.title)
+              else
+                a.reset-link-style(href="/")
+                  img(src='/images/EJP-logo-c.svg' alt=projectInfo.project.title)
+            .nav-placement
+              include partials/_top-nav
 
       block content
   

@@ -101,7 +101,7 @@ h2 {
   line-height: 1;
   font-size: $font-s1;
   color: $accent;
-  margin-top: 2vw;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -237,6 +237,18 @@ pre {
     svg {
       height: 22px;
     }
+  }
+}
+
+.nav-placement {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: $scr-width-md) {
+  .nav-placement {
+    position: static;
   }
 }
 
@@ -484,6 +496,7 @@ pre {
   background-size: 100%;
   cursor: pointer;
   text-indent: -4000px;
+  filter: brightness(0.3);
 
   &:hover {
     opacity: 0.7;
