@@ -12,7 +12,7 @@ const moment = require("moment");
 require("moment/locale/ru");
 
 // default hero image
-const defaultImage = "/images/bg-photo-02.jpg";
+const defaultImage = "/images/bg-default.jpg";
 
 let projectInfo = project.info;
 let podcast = {},
