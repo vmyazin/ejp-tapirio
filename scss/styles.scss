@@ -309,7 +309,6 @@ pre {
 
 @media screen and (max-width: 576px) {
   .episode-list li.selected {
-    background: #333;
     border: 0;
     padding-left: 25px;
     margin-left: -15px;
@@ -361,15 +360,16 @@ pre {
 
   > p {
     width: calc(100% - 100px);
+
+    img {
+      max-width: 512px;
+      margin-bottom: 2rem;
+    }
   }
 
   p {
     line-height: 1.35;
     color: $dark-grey;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
   }
 
   ul,
