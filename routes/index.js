@@ -65,17 +65,6 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get("/home-2021", (req, res) => {
-  res.render("home-2021", {
-    podcast,
-    projectInfo,
-    path: req.path,
-    pageTitle: "О нас",
-    isHeroParallax: true,
-    // heroImg: "/images/bg-techlife-kamas.jpg",
-  });
-});
-
 router.get("/about", (req, res) => {
   res.render("about", {
     projectInfo,
