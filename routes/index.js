@@ -94,7 +94,6 @@ router.get("/resources", (req, res) => {
     path: req.path,
     isHeroParallax: true,
     pageTitle: "Ресурсы",
-    heroImg: "/images/bg-lightning.jpg",
     pageDescription:
       "Дополнительные материалы в качестве приложения к подкасту; статьи, картинки, ссылки и т. п.",
   });
