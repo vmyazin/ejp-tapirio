@@ -2,13 +2,13 @@
   if nextEpisode
     a(href='/episodes/' + nextEpisode.episodeNum)
       img.arrow.prev(src='/images/big-thin-angle.svg' alt='На предыдущий')
-      b.num №#{nextEpisode.episodeNum}
+      b.num ##{nextEpisode.episodeNum}
       br
       | #{nextEpisode.title}
   .px-2.px-sm-4
   if prevEpisode
     a(href='/episodes/' + prevEpisode.episodeNum)
-      b.num №#{prevEpisode.episodeNum}
+      b.num ##{prevEpisode.episodeNum}
       br
       | #{prevEpisode.title}
       img.arrow.next(src='/images/big-thin-angle.svg' alt='На следующий')

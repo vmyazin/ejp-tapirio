@@ -12,7 +12,7 @@ block content
           each item, ind in podcast.channel.item
             li(data-episode-num=item.episodeNum)
               .num-and-title(title=item.pubDateConverted)
-                span.episode-num №#{item.episodeNum}
+                span.episode-num ##{item.episodeNum}
                 |  
                 span.show-episode.pseudo-link #{item.title}
               .selected-box

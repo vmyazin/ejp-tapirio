@@ -9,7 +9,7 @@ block content
       .col-sm-12.mt-2
         h3
           span.small-caps.date= episode.pubDateConverted
-        h2 №#{episode.episodeNum} #{episode.title}
+        h2 ##{episode.episodeNum} #{episode.title}
         h4= episode['itunes:subtitle']
         
         .player.my-3
@@ -19,7 +19,7 @@ block content
             span.mask-link-style
               img(src='/images/icon-download.svg' alt='Download')
               |  
-            | Скачать MP3 файл
+            | Download MP3 file
         section.episode-desc
           div !{episode.description}
 
