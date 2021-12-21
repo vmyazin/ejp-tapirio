@@ -99,19 +99,6 @@ router.get("/resources", (req, res) => {
   });
 });
 
-router.get("/guests", (req, res) => {
-  res.render("guests", {
-    projectInfo,
-    path: req.path,
-    isHeroParallax: true,
-    pageTitle: "Инструкции для гостей подкаста",
-    pageDescription:
-      "Если вас пригласили на подкаст в гости, вам надо подготовится. Мы объясняем как это сделать.",
-    heroImg: "",
-    pageShareImg: "/images/og-techlife-guests-1200.jpg",
-  });
-});
-
 router.route("/api/episode/:id").get(cors(), async (req, res) => {
   if (req.params.id) {
     result = episodes.find((obj) => {
