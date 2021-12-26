@@ -4,16 +4,16 @@
 
 <channel>
   <title>Everyday Journey Podcast</title>
-  <link>http://everydayjourneypodcast.com</link>
+  <link>https://ejp.vasilym.com</link>
   <description>Informal interviews with intersting people</description>
   <lastBuildDate>Wed, 19 Aug 2020 01:39:32 +0000</lastBuildDate>
   
   <image>
-    <url>https://ejp.vasilym.com/images/ejp-itunes-art-v2-1400-1024x1024.jpg</url>
+    <url>https://ejp.vasilym.com/images/ejp-itunes-art-v2-1400-1024x1024.jpeg</url>
     <title>Everyday Journey Podcast</title>
-    <link>http://everydayjourneypodcast.com</link>
+    <link>https://ejp.vasilym.com</link>
   </image>
-  <atom:link rel="self" type="application/rss+xml" title="Everyday Journey Podcast (MP3 Feed)" href="http://everydayjourneypodcast.com/feed/mp3/" />
+  <atom:link rel="self" type="application/rss+xml" title="Everyday Journey Podcast (MP3 Feed)" href="https://ejp.vasilym.com/ejp-podcast-feed.xml" />
   <language>en-US</language>
   <generator>Podcast XML Maker</generator>
   <itunes:author>Vasily Myazin</itunes:author>
@@ -32,35 +32,35 @@
   <itunes:explicit>no</itunes:explicit>
   
   <item>
-  <title>#13: Leo Luganskiy On Making A Career Out Of Passion For Music</title>
-  <link>https://ejp.vasilym.com/episodes/13</link>
-  <pubDate>Wed, 05 Aug 2020 21:33:49 +0000</pubDate>
-  <guid isPermaLink="false">podlove-2020-07-22t19:33:59+00:00-cace17ed5ec33b7</guid>
-  <content:encoded><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/13-leo-ejp.jpg" alt="Leo" width="100%" height="auto"><br />
-My guest today is Leo Lugansky, a musician involved in multiple projects, such as an alternative metal band Foirmoda and a Depeche Mode tribute band Strangelove. I sat down with Leo in Brooklyn to chat about music, making it in the international rock music scene and an assortment of other topics.</p>
-<p>Growing up in Volgograd, Russia he spent a lot of time tinkering with synthesizers and got involved in local musical circuits. Eventually, Leo moved to the USA and took his career to the next level blending various genres of rock and electronic music. By the way he looks and moves you can tell he made his passion for stage performance a permanent lifestyle. That even led him to working as a part-time model and actor but this is not where his main fervor lies.</p>
-<p>Tune in to this episode to find out how Leo walked his path from an audiophile to a musician touring the world.</p>
-<h3>Links</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Korg_Triton">Korg Trion Synthesizer</a></li>
-<li><a href="https://www.facebook.com/watch/LeoLuganskiyOfficial/">Leo Luganskiy Fan Page on Facebook</a></li>
-<li><a href="https://www.depechetribute.com/">Strangelove the Depeche Mode Experience</a></li>
-<li><a href="https://soundcloud.com/leo-luganskiy/foirmoda-trailer-2019/s-9c0nb">FOiRMODA Audio Trailer 2019</a></li>
-<li><a href="https://www.youtube.com/watch?v=qupfWeB9rhM">Strangelove -The Depeche Mode Experience Trailer 2019</a></li>
-<li><a href="https://www.youtube.com/watch?v=kuP_ZH2117Y&#10;">Leo Luganskiy &#8211; BRDRLNE (official video)</a></li>
-<li><a href="https://youtu.be/HyCm36hmI5c">Leo Luganskiy &#8211; Anthem For a Melancholy (feat. Nick Coyle of COLD)</a></li>
-</ul>
-]]></content:encoded>
-  <atom:link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/13" />
-  
-<enclosure url="http://everydayjourneypodcast.com/podlove/file/79/s/feed/c/mp3/EJP13-Leo-Lugansky-Jun-30-2020.mp3" length="61861350" type="audio/mpeg"/>
+    <title>#13: Leo Luganskiy On Making A Career Out Of Passion For Music</title>
+    <link>https://ejp.vasilym.com/episodes/13</link>
+    <pubDate>Wed, 05 Aug 2020 21:33:49 +0000</pubDate>
+    <guid isPermaLink="false">podlove-2020-07-22t19:33:59+00:00-cace17ed5ec33b7</guid>
+    <content:encoded><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/13-leo-ejp.jpg" alt="Leo" width="100%" height="auto"><br />
+  My guest today is Leo Lugansky, a musician involved in multiple projects, such as an alternative metal band Foirmoda and a Depeche Mode tribute band Strangelove. I sat down with Leo in Brooklyn to chat about music, making it in the international rock music scene and an assortment of other topics.</p>
+  <p>Growing up in Volgograd, Russia he spent a lot of time tinkering with synthesizers and got involved in local musical circuits. Eventually, Leo moved to the USA and took his career to the next level blending various genres of rock and electronic music. By the way he looks and moves you can tell he made his passion for stage performance a permanent lifestyle. That even led him to working as a part-time model and actor but this is not where his main fervor lies.</p>
+  <p>Tune in to this episode to find out how Leo walked his path from an audiophile to a musician touring the world.</p>
+  <h3>Links</h3>
+  <ul>
+  <li><a href="https://en.wikipedia.org/wiki/Korg_Triton">Korg Trion Synthesizer</a></li>
+  <li><a href="https://www.facebook.com/watch/LeoLuganskiyOfficial/">Leo Luganskiy Fan Page on Facebook</a></li>
+  <li><a href="https://www.depechetribute.com/">Strangelove the Depeche Mode Experience</a></li>
+  <li><a href="https://soundcloud.com/leo-luganskiy/foirmoda-trailer-2019/s-9c0nb">FOiRMODA Audio Trailer 2019</a></li>
+  <li><a href="https://www.youtube.com/watch?v=qupfWeB9rhM">Strangelove -The Depeche Mode Experience Trailer 2019</a></li>
+  <li><a href="https://www.youtube.com/watch?v=kuP_ZH2117Y&#10;">Leo Luganskiy &#8211; BRDRLNE (official video)</a></li>
+  <li><a href="https://youtu.be/HyCm36hmI5c">Leo Luganskiy &#8211; Anthem For a Melancholy (feat. Nick Coyle of COLD)</a></li>
+  </ul>
+  ]]></content:encoded>
+    <atom:link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/13" />
+    
+    <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/1185026734-techlifepodcast-13-leo-lugansky.mp3" length="61861350"/>
 
-  <itunes:duration>01:04:26</itunes:duration>
-  <itunes:author>Vasily Myazin</itunes:author>
-  <itunes:subtitle>Vasily sat down with Leo in Brooklyn to chat about music, making it in the international rock music scene and an assortment of other topics.</itunes:subtitle>
-  <itunes:title>#13: Leo Luganskiy On Making A Career Out Of Passion For Music</itunes:title>
-  <itunes:episode>13</itunes:episode>
-  <itunes:episodeType>full</itunes:episodeType>
+    <itunes:duration>01:04:26</itunes:duration>
+    <itunes:author>Vasily Myazin</itunes:author>
+    <itunes:subtitle>Vasily sat down with Leo in Brooklyn to chat about music, making it in the international rock music scene and an assortment of other topics.</itunes:subtitle>
+    <itunes:title>#13: Leo Luganskiy On Making A Career Out Of Passion For Music</itunes:title>
+    <itunes:episode>13</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
   </item>
   
   <item>
@@ -71,7 +71,7 @@ My guest today is Leo Lugansky, a musician involved in multiple projects, such a
   <description><![CDATA[Vasily gets on a call with Cristine to talk about her life growing up in the Philippines with Taiwanese parents, studying in France and USA, being a 3rd culture kid and navigation global mental health issues.]]></description>
   <atom:link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/12" />
   
-<enclosure url="http://everydayjourneypodcast.com/podlove/file/78/s/feed/c/mp3/EJP12-Cristine-Chen-Nov-20-2019.mp3" length="96247936" type="audio/mpeg"/>
+  <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/1185025612-techlifepodcast-cristine-chen.mp3" length="57985827"/>
 
   <itunes:duration>00:40:06</itunes:duration>
   <itunes:author>Vasily Myazin</itunes:author>
@@ -81,7 +81,7 @@ My guest today is Leo Lugansky, a musician involved in multiple projects, such a
   <itunes:episodeType>full</itunes:episodeType>
   
   <itunes:image href="https://ejp.vasilym.com/images/photos/12-cristine-casual-ejp.jpg" />
-  <content:encoded><![CDATA[<p><img loading="lazy" src="https://ejp.vasilym.com/images/photos/12-cristine-casual-ejp.jpg" alt="Cristine Chen" width="100%" height="auto"><br />
+  <content:encoded><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/12-cristine-casual-ejp.jpg" alt="Cristine Chen" width="100%" height="auto"><br />
 Vasily gets on a call with Cristine in Los Angeles to talk about her life growing up in the Philippines with Taiwanese parents, studying in France and USA, being a 3rd culture kid and navigation global mental health issues.</p>
 <p>We covered a lot of ground in this fun interview. Apart from taking a dive into Cristine&#8217;s upbringing between different cultures, we also discussed influence of social networks on the lives of adults and children and what we can do about the adverse effects of being online to excess. Be on the lookout for her upcoming book about third culture kids.</p>
 <h3>Links</h3>
@@ -101,7 +101,7 @@ Vasily gets on a call with Cristine in Los Angeles to talk about her life growin
   <description><![CDATA[Vasily meets Brett Whiteside to talk about learning and teaching languages and amazing expat life.]]></description>
   <atom:link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/11" />
   
-<enclosure url="http://everydayjourneypodcast.com/podlove/file/72/s/feed/c/mp3/EJP11-Brett-Whiteside-Feb-27-2019.mp3" length="57981435" type="audio/mpeg"/>
+  <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/1185029212-techlifepodcast-brett-whiteside.mp3" length="57985827"/>
 
   <itunes:duration>01:00:23</itunes:duration>
   <itunes:author>Vasily Myazin</itunes:author>
@@ -109,8 +109,7 @@ Vasily gets on a call with Cristine in Los Angeles to talk about her life growin
   <itunes:episode>11</itunes:episode>
   <itunes:episodeType>full</itunes:episodeType>
   
-  
-  <content:encoded><![CDATA[<p><img loading="lazy" class="alignnone size-large wp-image-230" style="max-width: 512px;" src="https://ejp.vasilym.com/images/photos/11-brett.jpg" alt="Brett" width="100%" height="auto"></p>
+  <content:encoded><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/11-brett.jpg" alt="Brett"></p>
 <p>I met Brett Whiteside at a meet up in Chiang Mei, Thailand. He is a well-known teacher of Thai and several other languages. Brett moved out of USA 15 years ago and almost never looked back. We talked about expat life, learning completely foreign languages and many other cool nerdy things.</p>
 <p>Brett shared how learning languages opens new doors and makes life (abroad) a lot more enjoyable. We went over some cultural quirks of Thailand and how to adjust to new life circumstances. If you are looking for an additional kick in the butt to start traveling, you are going to love this episode.</p>
 <h3>Links</h3>
@@ -121,23 +120,22 @@ Vasily gets on a call with Cristine in Los Angeles to talk about her life growin
   </item>
   
   <item>
-  <title>#10: Kurt Lindstrom On Big City Life and Ayahuasca Rituals</title>
-  <link>https://ejp.vasilym.com/episodes/10</link>
-  <pubDate>Wed, 08 Aug 2018 05:05:21 +0000</pubDate>
-  <guid isPermaLink="false">podlove-2018-07-29t06:38:35+00:00-0cf68249b1977f5</guid>
-  <description><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/10-kurt.jpg" alt="Kurt" width="100%" height="auto" /></p><p>In this episode I met up with my old buddy Kurt who has a successful IT management career living in New York City. What&#8217;s interesting about him is that he regularly attends sacred psychedelic rituals involving taking ayahuasca (or yagé), an entheogenic brew made out of plants found in South America.</p><p>Kurt manages to combine busy social city life and a high responsibility job with periodic escapades into other worlds, as well as deep dives into his own mind. Take a listen if you ever contemplated to try this magical, spiritual substance yourself.</p><h3>Links</h3><ul><li><a href="https://en.wikipedia.org/wiki/Ayahuasca">Ayahuasca on Wikipedia</a></li><li><a href="https://www.hioscar.com/">Oscar Health Insurance</a></li></ul>]]></description>
-  <atom:link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/10" />
-  
-  <enclosure url="http://everydayjourneypodcast.com/podlove/file/64/s/feed/c/mp3/EJP10-Kurt-Lindstrom-Jun-10-2018.mp3" length="42629375" type="audio/mpeg"/>
+    <title>#10: Kurt Lindstrom On Big City Life and Ayahuasca Rituals</title>
+    <link>https://ejp.vasilym.com/episodes/10</link>
+    <pubDate>Wed, 08 Aug 2018 05:05:21 +0000</pubDate>
+    <guid isPermaLink="false">podlove-2018-07-29t06:38:35+00:00-0cf68249b1977f5</guid>
+    <description><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/10-kurt.jpg" alt="Kurt" /></p><p>In this episode I met up with my old buddy Kurt who has a successful IT management career living in New York City. What&#8217;s interesting about him is that he regularly attends sacred psychedelic rituals involving taking ayahuasca (or yagé), an entheogenic brew made out of plants found in South America.</p><p>Kurt manages to combine busy social city life and a high responsibility job with periodic escapades into other worlds, as well as deep dives into his own mind. Take a listen if you ever contemplated to try this magical, spiritual substance yourself.</p><h3>Links</h3><ul><li><a href="https://en.wikipedia.org/wiki/Ayahuasca">Ayahuasca on Wikipedia</a></li><li><a href="https://www.hioscar.com/">Oscar Health Insurance</a></li></ul>]]></description>
+    <atom:link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/10" />
+    
+    <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/1185025096-techlifepodcast-10-kurt-lindstrom-1.mp3" length="42629375"/>
 
-  <content:encoded><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/10-kurt.jpg" alt="Kurt" width="100%" height="auto" /></p><p>In this episode I met up with my old buddy Kurt who has a successful IT management career living in New York City. What&#8217;s interesting about him is that he regularly attends sacred psychedelic rituals involving taking ayahuasca (or yagé), an entheogenic brew made out of plants found in South America.</p><p>Kurt manages to combine busy social city life and a high responsibility job with periodic escapades into other worlds, as well as deep dives into his own mind. Take a listen if you ever contemplated to try this magical, spiritual substance yourself.</p><h3>Links</h3><ul><li><a href="https://en.wikipedia.org/wiki/Ayahuasca">Ayahuasca on Wikipedia</a></li><li><a href="https://www.hioscar.com/">Oscar Health Insurance</a></li></ul>]]></content:encoded>
+    <content:encoded><![CDATA[<p><img src="https://ejp.vasilym.com/images/photos/10-kurt.jpg" alt="Kurt"/></p><p>In this episode I met up with my old buddy Kurt who has a successful IT management career living in New York City. What&#8217;s interesting about him is that he regularly attends sacred psychedelic rituals involving taking ayahuasca (or yagé), an entheogenic brew made out of plants found in South America.</p><p>Kurt manages to combine busy social city life and a high responsibility job with periodic escapades into other worlds, as well as deep dives into his own mind. Take a listen if you ever contemplated to try this magical, spiritual substance yourself.</p><h3>Links</h3><ul><li><a href="https://en.wikipedia.org/wiki/Ayahuasca">Ayahuasca on Wikipedia</a></li><li><a href="https://www.hioscar.com/">Oscar Health Insurance</a></li></ul>]]></content:encoded>
 
-  <itunes:duration>00:44:24</itunes:duration>
-  <itunes:author>Vasily Myazin</itunes:author>
-  <itunes:subtitle></itunes:subtitle>
-  <itunes:episode>10</itunes:episode>
-  <itunes:episodeType>full</itunes:episodeType>
-  
+    <itunes:duration>00:44:24</itunes:duration>
+    <itunes:author>Vasily Myazin</itunes:author>
+    <itunes:subtitle></itunes:subtitle>
+    <itunes:episode>10</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
   </item>
   
   <item>
@@ -328,7 +326,7 @@ We chatted about Richard's childhood in the suburban Bay Area, being secluded, p
   <title>#04: Sina Jazayeri on Iran, Being a Musician, and Web Technologies</title>
   <link>https://ejp.vasilym.com/episodes/04</link>
   <pubDate>Tue, 18 Apr 2017 00:46:28 +0000</pubDate>
-  <guid isPermaLink="false">podlove-2017-04-17t23:49:01+00:00-e2b5a0231a165a8</guid>
+  <guid isPermaLink="false">podlove-2017-04-17t23:49:01+00:00-eaa5a0231a165a8</guid>
   <description><![CDATA[My guest today is a musician, a screenwriter, a podcaster, a web entrepreneur, and a bad ass software engineer. At 16 years of age he was a drummer in Iran first licenced heavy metal band since the 1979 revolution. He was born in Iran, raised in Australia and now lives in Manhattan. Let me present to you Sina Jazayeri!
 
 We talked about growing up in Iran, being a drummer at 16 in an oppressive country, moving to Australia and being broke and bored there, and finding a new and exciting life in New York City. We also covered personal development, web technologies, pet projects, and a few other awesome things.]]></description>
@@ -361,8 +359,8 @@ We talked about growing up in Iran, being a drummer at 16 in an oppressive count
   <item>
     <title>#03: Hassan Ahmad, Entrepreneur and Doctor</title>
     <link>https://ejp.vasilym.com/episodes/03</link>
-    <pubDate>Thu, 16 Feb 2017 00:46:28 +0000</pubDate>
-    <guid isPermaLink="false">podlove-2017-04-17t23:49:01+00:00-e2b5a0331a165a8</guid>
+    <pubDate>Thu, 23 Feb 2017 12:46:28 +0000</pubDate>
+    <guid isPermaLink="false">podlove-2017-04-17t23:49:01+00:00-e2bza0331a165a8</guid>
     <description><![CDATA[My guest Jitse Schuurmans is a lecturer in anthropology at the University of Amsterdam covering the subjects of romance and dating.]]></description>
     <link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/02" />
     <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/1182452008-techlifepodcast-03-hassan-ahmad.mp3" length="43224555"/>
@@ -389,7 +387,7 @@ We talked about growing up in Iran, being a drummer at 16 in an oppressive count
     <title>#02: Jitse Schuurmans, Romance and Dating Lecturer</title>
     <link>https://ejp.vasilym.com/episodes/02</link>
     <pubDate>Thu, 16 Feb 2017 00:46:28 +0000</pubDate>
-    <guid isPermaLink="false">podlove-2017-04-17t23:49:01+00:00-e2b5a0231a165a8</guid>
+    <guid isPermaLink="false">podlove-2017-04-17t23:49:01+00:00-e2b5a2221a165a8</guid>
     <description><![CDATA[My guest Jitse Schuurmans is a lecturer in anthropology at the University of Amsterdam covering the subjects of romance and dating.]]></description>
     <link rel="http://podlove.org/deep-link" href="https://ejp.vasilym.com/episodes/02" />
     <enclosure type="audio/mpeg" url="https://feeds.soundcloud.com/stream/1181795470-techlifepodcast-02-jitse-schuurmans.mp3" length="71005562" />
