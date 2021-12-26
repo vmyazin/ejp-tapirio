@@ -33,7 +33,6 @@ project.init().then(() => {
     episode.episodeNum = episodeNumber.replace("#", "");
     // add clean episode title
     episode.title = episode.title.replace(episodeNumber + ": ", "");
-    // add neat episode date in Russian
     episode.pubDateConverted = moment(episode.pubDate)
       .locale("en")
       .format("LL");
@@ -61,7 +60,7 @@ router.get("/", (req, res) => {
     articles,
     projectInfo,
     isHeroParallax: false,
-    path: "home",
+    path: "home"
   });
 });
 
@@ -73,7 +72,7 @@ router.get("/about", (req, res) => {
     isHeroParallax: true,
     // heroImg: "/images/bg-techlife-kamas.jpg",
     pageDescription:
-      "Авторы Дмитрий Здоров и Василий Мязин давние друзья и записывают подкаст о технологиях часто находясь в разных странах",
+      "About the podcast and the author Vasily Myazin",
   });
 });
 
