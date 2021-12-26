@@ -673,6 +673,14 @@ pre {
   &.active {
     transform: translateY(0%);
   }
+
+  .title {
+    color: $light-grey;
+  }
+
+  .btn-play {
+    filter: brightness(0.6);
+  }
 }
 
 .progress-wrapper {
