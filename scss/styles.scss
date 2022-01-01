@@ -85,7 +85,11 @@ a.link-ext {
 }
 
 .mask-link-style {
-  border-bottom: 1px black solid;
+  border-bottom: 1px $bg-color solid;
+}
+
+[download] img {
+  filter: brightness(0.4);
 }
 
 h1 {
@@ -562,6 +566,7 @@ pre {
       height: 60px;
       position: absolute;
       top: 10px;
+      filter: brightness(0.4);
 
       &.prev {
         left: -50px;
