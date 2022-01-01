@@ -1,5 +1,5 @@
 doctype html
-html
+html(lang="en")
   head
     meta(name='viewport' content='width=device-width,initial-scale=1,shrink-to-fit=no')
     meta(name='theme-color' content='#41caff')
@@ -66,10 +66,10 @@ html
         meta(property='og:image' content='/images/og-ejp-artwork-1200.jpg')
 
   body(class=path)
-    if isHeroParallax
-      img.hero-image(src=heroImg id="hero-image" class="parallax")
-    else 
-      img.hero-image(src=heroImg id="hero-image")
+    //- if isHeroParallax
+    //-   img.hero-image(src=heroImg id="hero-image" class="parallax")
+    //- else 
+    //-   img.hero-image(src=heroImg id="hero-image")
     .master-container
       .container-fluid
         .row
