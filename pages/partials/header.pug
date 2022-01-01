@@ -2,7 +2,7 @@
   .row
     .col.mt-4
       .text-center
-        p= projectInfo.project.description
+        h3= projectInfo.project.description
         p
-          a.link-ext(href='mailto:'+projectInfo.project.email rel='external')  #{projectInfo.project.email} 
+          a.link-ext(href='mailto:'+projectInfo.project.email rel='external' aria-label="contact email " + projectInfo.project.email)  #{projectInfo.project.email} 
       

@@ -3,7 +3,7 @@ if path
     nav.mt-3
       ul.list-inline
         li.list-inline-item
-          a.nav-pill(href="/" class=(path.includes('home') ? 'active' : ''))
+          a.nav-pill(href="/" class=(path.includes('home') ? 'active' : '') aria-label="Home page")
             include ../../public/images/icon-home.svg
         li.list-inline-item
           a.nav-pill(href="/about" class=(path.includes('about') ? 'active' : '')) About
