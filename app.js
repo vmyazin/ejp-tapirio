@@ -3,7 +3,7 @@ let express = require("express");
 let path = require("path");
 let cookieParser = require("cookie-parser");
 let logger = require("morgan");
-let sassMiddleware = require("node-sass-middleware");
+let sassMiddleware = require('sass-middleware');
 
 let indexRouter = require("./routes/index");
 let usersRouter = require("./routes/users");
@@ -18,16 +18,18 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+// Sass middleware configuration
 app.use(
   sassMiddleware({
-    src: __dirname + "/scss", //where the sass files are
-    dest: __dirname + "/public/stylesheets", //where css should go
+    src: path.join(__dirname, 'scss'),
+    dest: path.join(__dirname, 'public/stylesheets'),
     debug: true,
-    indentedSyntax: false,
-    outputStyle: "compressed",
-    prefix: "/stylesheets",
+    outputStyle: 'compressed',
+    prefix: '/stylesheets'
   })
 );
+
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
