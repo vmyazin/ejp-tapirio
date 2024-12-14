@@ -366,8 +366,10 @@ pre {
     width: calc(100% - 100px);
 
     img {
-      max-width: 512px;
-      margin-bottom: 2rem;
+      @media screen and (min-width: 992px) {
+        max-width: 512px;
+        margin-bottom: 2rem;
+      }
     }
   }
 
@@ -796,10 +798,11 @@ img.hero-image {
 .inactive-banner {
   background-color: $accent;
   border-bottom: 1px solid #0c030c;
-  color: #ffffff;
 }
 
 .inactive-banner p {
-  font-size: 1rem;
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 1.2;
   font-weight: 500;
 }

@@ -3,7 +3,7 @@ let express = require("express");
 let path = require("path");
 let cookieParser = require("cookie-parser");
 let logger = require("morgan");
-let sassMiddleware = require('sass-middleware');
+let sass = require('sass');
 
 let indexRouter = require("./routes/index");
 let usersRouter = require("./routes/users");
@@ -19,16 +19,22 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// Sass middleware configuration
-app.use(
-  sassMiddleware({
-    src: path.join(__dirname, 'scss'),
-    dest: path.join(__dirname, 'public/stylesheets'),
-    debug: true,
-    outputStyle: 'compressed',
-    prefix: '/stylesheets'
-  })
-);
+// Compile Sass on startup
+sass.render({
+  file: path.join(__dirname, 'scss/styles.scss'),
+  outFile: path.join(__dirname, 'public/stylesheets/styles.css'),
+  outputStyle: 'compressed',
+  sourceMap: true
+}, function(error, result) {
+  if (!error) {
+    require('fs').writeFileSync(path.join(__dirname, 'public/stylesheets/styles.css'), result.css);
+    if (result.map) {
+      require('fs').writeFileSync(path.join(__dirname, 'public/stylesheets/styles.css.map'), result.map);
+    }
+  } else {
+    console.error('Sass compilation error:', error);
+  }
+});
 
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -42,11 +48,8 @@ app.use(function (req, res, next) {
 
 // error handler
 app.use(function (err, req, res, next) {
-  // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
-
-  // render the error page
   res.status(err.status || 500);
   res.render("error");
 });

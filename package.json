@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "admin": "node ./admin/bin/www",
     "test": "jest",
-    "sass": "node-sass -w sass -o public/stylesheets",
+    "sass": "sass --watch scss:public/stylesheets",
     "devstart": "nodemon ./bin/www",
     "serverstart": "DEBUG=tapirio:* npm run devstart"
   },
@@ -28,8 +28,8 @@
     "moment": "^2.24.0",
     "morgan": "~1.10.0",
     "node-html-parser": "^1.2.20",
-    "sass-middleware": "^0.0.3",
     "pug": "2.0.4",
+    "sass": "^1.83.0",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
