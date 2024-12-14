@@ -792,3 +792,14 @@ img.hero-image {
   z-index: -1;
   width: 100%;
 }
+
+.inactive-banner {
+  background-color: $accent;
+  border-bottom: 1px solid #0c030c;
+  color: #ffffff;
+}
+
+.inactive-banner p {
+  font-size: 1rem;
+  font-weight: 500;
+}
