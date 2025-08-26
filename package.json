@@ -7,8 +7,10 @@
     "admin": "node ./admin/bin/www",
     "test": "jest",
     "sass": "sass --watch scss:public/stylesheets",
+    "build": "sass scss:public/stylesheets --style compressed",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "DEBUG=tapirio:* npm run devstart"
+    "serverstart": "DEBUG=tapirio:* npm run devstart",
+    "vercel-build": "npm run build"
   },
   "jest": {
     "testEnvironment": "node",
